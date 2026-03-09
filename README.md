@@ -2,7 +2,7 @@
 
 This repository contains implementations and experiments for the **Ego4D Natural Language Queries (NLQ)** benchmark, including baseline models and extension approaches for episodic memory tasks in egocentric video understanding.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -13,7 +13,7 @@ This repository contains implementations and experiments for the **Ego4D Natural
 - [Extension Approaches](#extension-approaches)
 - [Citation](#citation)
 
-## 🎯 Overview
+## Overview
 
 This project implements and extends baseline models for the Ego4D Natural Language Queries benchmark. The task involves localizing temporal windows in egocentric videos based on natural language queries (e.g., "Where did I put my keys?").
 
@@ -23,7 +23,7 @@ This project implements and extends baseline models for the Ego4D Natural Langua
 - Comprehensive data analysis and visualization
 - Integration with Ego4D dataset and Omnivore features
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -51,7 +51,7 @@ This project implements and extends baseline models for the Ego4D Natural Langua
             └── omnivore_video_swinl_fp16/
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -230,7 +230,7 @@ If you use this code or the Ego4D dataset, please cite:
 }
 ```
 
-## 📝 Resources
+## Resources
 
 - **Ego4D Website**: [https://ego4d-data.org](https://ego4d-data.org)
 - **Ego4D Documentation**: [https://ego4d-data.org/docs](https://ego4d-data.org/docs)
@@ -238,14 +238,14 @@ If you use this code or the Ego4D dataset, please cite:
 - **EvalAI Challenge**: [https://eval.ai/web/challenges/challenge-page/1629/overview](https://eval.ai/web/challenges/challenge-page/1629/overview)
 - **Baseline Repository**: [https://github.com/EGO4D/episodic-memory](https://github.com/EGO4D/episodic-memory)
 
-## 📜 License
+## License
 
 This project is released under the MIT License. See the Ego4D dataset license for dataset usage terms.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow the contribution guidelines in [episodic-memory/NLQ/2D-TAN/CONTRIBUTING.md](episodic-memory/NLQ/2D-TAN/CONTRIBUTING.md).
 
-## 🔒 Security
+## Security
 
 For security issues, please refer to [episodic-memory/NLQ/2D-TAN/SECURITY.md](episodic-memory/NLQ/2D-TAN/SECURITY.md).
