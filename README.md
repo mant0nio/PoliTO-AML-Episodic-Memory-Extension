@@ -115,7 +115,7 @@ pip install transformers
 pip install matplotlib wordcloud
 ```
 
-## 📓 Available Notebooks
+## Available Notebooks
 
 ### Baseline Models
 
@@ -142,7 +142,7 @@ pip install matplotlib wordcloud
    - Narration-based query generation (Method 2)
    - Alternative approach with improved query diversity
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **Ego4D v1** dataset:
 
@@ -159,7 +159,7 @@ Run the data analysis cells in any notebook to see:
 - Video clip duration analysis
 - Query word frequency
 
-## 🤖 Models
+## Models
 
 ### VSLNet (Span-based Localizing Network)
 
@@ -192,7 +192,7 @@ python moment_localization/train.py \
     --cfg experiments/ego4d/2D-TAN-40x40-K9L4-pool-window-std-omnivore.yaml
 ```
 
-## 🔬 Extension Approaches
+## Extension Approaches
 
 ### Extension Pipeline
 
@@ -210,7 +210,7 @@ Located in [`extension_1/query_generation/`](extension_1/query_generation/):
 - Reconstruct chunks: [`4_reconstruct_chunks.py`](extension_1/query_generation/4_reconstruct_chunks.py)
 - Merge JSON outputs for large-scale processing
 
-## 🎓 Citation
+## Citation
 
 If you use this code or the Ego4D dataset, please cite:
 
